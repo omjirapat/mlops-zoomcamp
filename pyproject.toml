@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "mlops-zoomcamp"
+version = "1.0"
+description = "This repo contains the homework answers for the MLOps Zoomcamp organized by DataTalksClub"
+authors = ["Jirapat Intaaue <156293220+omjirapat@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+seaborn = "^0.13.2"
+matplotlib = "^3.8.4"
+scikit-learn = "^1.4.2"
+pyarrow = "^16.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyterlab = "^4.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
