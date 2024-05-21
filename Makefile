@@ -1,5 +1,5 @@
 mlflow-ui:
-	cd W2 && nohup mlflow ui --backend-store-uri sqlite:///mlflow.db > mlflow.log 2>&1 &
+	cd W2 && nohup mlflow ui --backend-store-uri sqlite:///mlflow.db
 
 jupyter-lab:
 	cd W2 && jupyter lab
